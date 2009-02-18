@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Joe Martinez :: Ruby/Javascript Developer
+title: "Joe Martinez :: Ruby/Javascript Developer"
 ---
 
 {% for post in site.posts %}
