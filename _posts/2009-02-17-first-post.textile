@@ -1,0 +1,6 @@
+---
+layout: post
+title: Welcome to my new blawg...
+---
+
+So I've made the move to "Jekyll":http://github.com/mojombo/jekyll/
