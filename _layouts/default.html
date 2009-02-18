@@ -11,7 +11,6 @@
   <link href="/stylesheets/ie.css" rel="stylesheet" type="text/css" />
   <![endif]-->
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
   <link href="/css/main.css" rel="stylesheet" type="text/css" />  
 </head>
 <body>
@@ -26,22 +25,15 @@
         {{ content }}
       </div>
       <div id='sidebar' class='column last span-6'>
-        I'll put something over here.
+        {% include sidebar.html %}
       </div>
     </div>
     <div id='footer'>
       <div class='column span-24'>
-        <p>Powered by <a href="http://http://github.com/mojombo/jekyll//">Jekyll</a></p>
+        <p>Powered by <a href="http://http://github.com/mojombo/jekyll/">Jekyll</a></p>
       </div>
     </div>
   </div>
-  <script type="text/javascript">
-  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-  var pageTracker = _gat._getTracker("UA-1680022-1");
-  pageTracker._trackPageview();
-  </script>
-</body>
+  {% include google_analytics %}
+  </body>
 </html>

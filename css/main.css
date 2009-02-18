@@ -139,16 +139,31 @@ h1, h2, h3 {
  +Sidebar
  *************************************/
 #sidebar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	}
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
 
 #sidebar ul li {
 	border-bottom: 1px dotted #ddd;
 	margin-bottom: 0.3em;
 	padding: 0.3em;
 	}
+
+#sidebar dl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#sidebar dl dt {
+  float: left;
+}
+
+#sidebar dl dd {
+  margin-left: 70px;
+}
 /*************************************
  +Comments
  *************************************/

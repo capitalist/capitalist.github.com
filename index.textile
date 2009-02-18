@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Joe Martinez
+title: Joe Martinez :: Ruby/Javascript Developer
 ---
 
 {% for post in site.posts %}
@@ -16,7 +16,6 @@ h3. {{ post.date | date_to_string }}
       {{ post.content }}      
     </div>
     <div class="entrymeta">
-      {{ post.topics }}      
     </div>
   </div>
 {% endfor %}

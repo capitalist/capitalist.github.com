@@ -1,0 +1,16 @@
+---
+layout: post
+title: I've moved to Jekyll...
+---
+
+So I've made the move to "Jekyll":http://github.com/mojombo/jekyll/
+
+I don't mean physically(unfortunately). I've moved this blog to static pages on "GitHub":http://github.com powered by the Jekyll static site generator.
+
+When I saw a project on GitHub titled Jekyll, it caught my eye. My grandparents had a beach house on Jekyll Island in GA where I spent many summers. So, I checked it out and am quite impressed. Its author, "mojombo":http://github.com/mojombo makes a great point about how blogs are currently setup backwards.
+
+Jekyll lets you author your posts in Textile, Markdown or plain HTML and cranks out the HTML for the entire site for you. It will even generate the xml feeds for you. 
+
+The only thing that's generally dynamic content on a blog are the comments, but with services like "Disqus":http://disqus.com/home/ you can transparently host them off-site.
+
+I'll probably hack on Jekyll a bit in the next few days to add HAML support which is noticeably missing, but other than that - it's great!
