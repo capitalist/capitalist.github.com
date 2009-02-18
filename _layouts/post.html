@@ -23,7 +23,17 @@
     </div>
     <div>
       <div id="content" class='column span-18'>
-        {{ content }}
+          <div class="entry">
+            <div class="entrytitle">
+              <h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+              <h3>{{ page.date | date_to_string }}</h3>
+            </div>
+            <div class="entrybody">
+              {{ content }}
+            </div>
+            <div class="entrymeta">
+            </div>
+          </div>
       </div>
       <div id='sidebar' class='column last span-6'>
         I'll put something over here.
