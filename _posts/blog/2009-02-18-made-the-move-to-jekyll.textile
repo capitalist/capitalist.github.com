@@ -14,3 +14,5 @@ Jekyll lets you author your posts in Textile, Markdown or plain HTML and cranks 
 The only thing that's generally dynamic content on a blog are the comments, but with services like "Disqus":http://disqus.com/home/ you can transparently host them off-site.
 
 I'll probably hack on Jekyll a bit in the next few days to add HAML support which is noticeably missing, but other than that - it's great!
+
+PS: Since most of the old content is dated and irrelevant anyway - I'm not going to bother moving it over.
