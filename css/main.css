@@ -19,21 +19,18 @@ body {
 #wrap {
 	margin: 0 auto;
 	text-align: left;
-	width: 76em;
 	}
 
 #content {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	float: left;
-	padding: 2em 1em 0 1em;
-	width: 40em;
+	padding-top: 2em;
 	}
 
 #sidebar {
 	font-size: 1.1em;
 	float: right;
-	padding-top: 2em;
-	width: 20em;
+	padding-top: 3em;
 	text-align: left;
 	}
 
@@ -42,13 +39,14 @@ body {
 #footer {
 	background: #174863;
 	border-top: 1px solid #777;
-	color: #888;
+	color: #CCC;
 	clear: both;
 	font-size: 0.9em;
 	padding: 2em 1em;
 	}
 
 #footer p { margin: 0; }
+#footer a { color: #3BB9FF; }
 /*************************************
  +Hn and p
  *************************************/
@@ -101,6 +99,10 @@ h1, h2, h3 {
 	font-size: 1.8em;
 	color: #6F6F6F;
 	}
+	
+.entrybody {
+  text-align: justify;
+}
 
 #sidebar h3 {
 	color: #555;
