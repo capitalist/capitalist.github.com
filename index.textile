@@ -15,13 +15,15 @@ h3. {{ post.date | date_to_string }}
     <div class="entrybody">
       {{ post.content }}      
     </div>
+    <notextile>
     <div class="entrymeta">
       <script>
       var idcomments_acct = '62cbbc1b587d4f49c547ec8d9b8924c6';
       var idcomments_post_id;
-      var idcomments_post_url = "{{ post.permalink }}";
+      var idcomments_post_url = "http://jrmiii.com{{ post.url }}";
       </script>
       <script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
     </div>
+    </notextile>
   </div>
 {% endfor %}
