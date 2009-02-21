@@ -22,7 +22,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	vertical-align: baseline;
 	}
 
-body { line-height: 1.5; }
+/*body { line-height: 1.5; }*/
 
 table {
 	border-collapse: separate;
@@ -128,13 +128,12 @@ address {
 del { color: #666; }
 
 pre, code {
-	margin: 1.5em 0;
+	margin: 0;
 	white-space: pre;
 	}
 
 pre, code, tt {
 	font: 1em 'andale mono' , 'lucida console' , monospace;
-	line-height: 1.5;
 	}
 
 li ul, li ol { margin: 0 1.5em; }
@@ -175,7 +174,7 @@ caption { background: #eee; }
 .hide { display: none; }
 .quiet { color: #666; }
 .loud { color: #000; }
-.highlight { background: #ff0; }
+.hilite { background: #ff0; }
 
 .added {
 	background: #060;

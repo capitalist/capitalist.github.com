@@ -11,7 +11,7 @@ layout: nil
  <id>http://www.jrmiii.com/</id>
  <author>
    <name>Joe Martinez</name>
-   <email>joe@jrmiii.com</email>
+   <email>jrm02t+atom@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
