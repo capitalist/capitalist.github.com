@@ -117,7 +117,7 @@ h1, h2, h3 {
 	text-align: left;
 	}
 
-.entrymeta { font-size: 0.9em; }
+.entrymeta { font-size: 0.9em; text-align: center;}
 
 .postedby {
 	background: #fff url(../images/user.gif) no-repeat;
