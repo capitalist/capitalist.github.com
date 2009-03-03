@@ -83,6 +83,8 @@ h1, h2, h3 {
 	margin-top: -0.5em;
 	}
 
+.entries pre,.entries  code,.entries tt { line-height: .6em };
+
 .entrytitle h2 {
 	font-size: 2.2em;
 	color: #174863;
@@ -157,6 +159,7 @@ h1, h2, h3 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 1.2em;
   }
 
 #sidebar dl dt {
@@ -166,6 +169,11 @@ h1, h2, h3 {
 #sidebar dl dd {
   margin-left: 70px;
 }
+
+#sidebar #search { width: 250px; }
+#sidebar .gsc-control {width: 236px; }
+
+#sidebar hr { margin: 1em 0;}
 /*************************************
  +Comments
  *************************************/

@@ -133,8 +133,9 @@ pre, code {
 	}
 
 pre, code, tt {
-	font: 1em 'andale mono' , 'lucida console' , monospace;
-	}
+	font: .8em 'andale mono' , 'lucida console' , monospace;
+	line-height: 1em;
+}
 
 li ul, li ol { margin: 0 1.5em; }
 ul, ol { margin: 0 1.5em 1.5em 1.5em; }

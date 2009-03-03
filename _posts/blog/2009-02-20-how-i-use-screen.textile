@@ -18,32 +18,29 @@ h3. Using screen in a single context
 I know most folks who use screen like to create separate screenrc's depending on what they need open. That works like this: 
 I've got my default, 'all the time' settings in ~/.screenrc and per context settings in ~/.screen/foo. So let's assume I'm going to be doing some rails work - I'd startup screens with the following command:
 
-<pre>
+{% highlight bash %}
   screen -c ~/.screen/rails
-</pre>
-
+{% endhighlight %}
 That'd fire off a server, autotest, console, and prompt - all ready to go from whatever project dir I was in. The config file for that looks like:
 
-<pre>
+{% highlight bash %}
   source ../.screenrc
   
   screen -t svr ./script/server
   screen -t con ./script/console
   screen -t at autotest --rails
-</pre>
-<br/>
+{% endhighlight %}
 
 h3. Using screen while context switching
 
 Contrary to this, quite a bit of the time I'm flying through one off tasks and switching contexts too much for this approach to be productive. In that case I start screen in my home directory and rely on its ability to bind any command to a key. Using these bindings coupled with a utility that lets you jump around really quickly(I use "j":http://github.com/rupa/j/) allows you to terminal your way around all your chores. Some of my bindings look like this:
 
-<pre>
+{% highlight bash %}
   bind S screen -t svr ./script/server
   bind C screen -t con ./script/console
   bind T screen -t test rake
   bind P screen -t cucumber ./features
-</pre>
-<br/>
+{% endhighlight %}
 
 h3. Why not just use tabs in Terminal.app or something?
 

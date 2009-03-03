@@ -1,0 +1,28 @@
+<!-- <script src="http://www.google.com/jsapi?key=ABQIAAAA5R6VskBAang0lv7plJQH8BRfUx3sRipQntC2w9IdBQjCdLDqiBTGTWLwnN7KiDTNKoyAwWZ0mhaZtA" type="text/javascript"></script> -->
+<script src="http://www.google.com/jsapi?key=ABQIAAAA5R6VskBAang0lv7plJQH8BT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQZNLRW5vBTVSLUunQEtR2AOjowbw" type="text/javascript"></script>
+
+<script language="Javascript" type="text/javascript">
+//<![CDATA[
+
+google.load("search", "1");
+
+function OnLoad() {
+  // Create a search control
+  var searchControl = new google.search.SearchControl();
+
+  // Add in a WebSearch
+  var webSearch = new google.search.WebSearch();
+
+  // Restrict our search to pages from this site
+  webSearch.setSiteRestriction('jrmiii.com');
+
+  // Add the searcher to the SearchControl
+  searchControl.addSearcher(webSearch);
+
+  // tell the searcher to draw itself and tell it where to attach
+  searchControl.draw(document.getElementById("search"));
+}
+google.setOnLoadCallback(OnLoad);
+
+//]]>
+</script>
