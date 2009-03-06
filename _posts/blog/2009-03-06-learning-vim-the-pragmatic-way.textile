@@ -1,0 +1,15 @@
+---
+layout: post
+title: Learning Vim The Pragmatic Way
+---
+
+Due to popular inexorability, I'm learning to use the "Vim" text editor(specifically "MacVim":http://code.google.com/p/macvim/). 
+Having recently finished "Pragmatic Thinking &amp; Learning":http://www.amazon.com/gp/product/1934356050?ie=UTF8&tag=joemart-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1934356050, I decided to follow one of the suggestions and mind map this new information.
+
+The mind map turned out pretty good. This one includes the basic commands, which I'll update with the more advanced stuff as I learn it. I made a large version to hang next to my screen. Here's a preview:
+
+!/attachments/Vim.png!
+
+You can download the full version as a PDF "here":/attachments/Vim.pdf. Also, if you want, you can work on this mind map some more by importing "the OPML":/attachments/Vim.opml for it into whatever software you use.
+
+PS: Yes, I wrote this post in Vim :)
